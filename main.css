@@ -20,7 +20,7 @@ body{
     'right'
     'footer';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #29ad30;
   padding: 10px;
 
 }
@@ -33,6 +33,17 @@ body{
 }
 
 @media screen and (min-width:600px) {
+  
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header'
+    'menu main main right'
+    'menu footer footer footer';
+  grid-gap: 10px;
+  background-color: #682a5a;
+  padding: 10px;
+
   
 .grid-container {
   display: grid;
